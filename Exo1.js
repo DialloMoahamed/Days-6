@@ -44,7 +44,13 @@ do {
 
 // Reponse numero 3
 // --------- Itérer de 0 à n ---------// 
-let n = 100;
+let n = 10;
 for (let o = 0; o <= n; o++) {
     console.log(o);
+}
+
+
+// Reponse numero 4
+for (let a = 1; a <= 7; a++) {
+    console.log('#'.repeat(a));
 }
