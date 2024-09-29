@@ -18,3 +18,25 @@ do {
     console.log(x);
     x++
 } while (x <= 10)
+
+
+// Reponse numero 2
+// --------- Itérer de 10 à 0 ---------// 
+// --------- Boucle for ---------// 
+for (let z = 10; z >= 0; z--) {
+    console.log(z);
+}
+
+
+// --------- Boucle while ---------// 
+let y = 10;
+while (y >= 0) {
+    console.log(y);
+    y--;
+}
+// --------- Boucle do while ---------// 
+let m = 10;
+do {
+    console.log(m);
+    m--
+} while (m = 10)
