@@ -40,3 +40,11 @@ do {
     console.log(m);
     m--
 } while (m = 10)
+
+
+// Reponse numero 3
+// --------- Itérer de 0 à n ---------// 
+let n = 100;
+for (let o = 0; o <= n; o++) {
+    console.log(o);
+}
