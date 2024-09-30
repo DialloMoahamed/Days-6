@@ -84,3 +84,18 @@ for (let v = 0; v <= h; v++) {
         console.log(v); 
     }
 }
+
+
+// Reponse numero 9
+for (let nombre = 2; nombre <= 100; nombre++) {
+    let estPremier = true;
+    for (let d = 2; d <= Math.sqrt(nombre); d++) {
+      if (nombre % d === 0) {
+        estPremier = false;
+        break;
+      }
+    }
+    if (estPremier) {
+      console.log(nombre);
+    }
+  }
