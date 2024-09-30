@@ -99,3 +99,11 @@ for (let nombre = 2; nombre <= 100; nombre++) {
       console.log(nombre);
     }
   }
+
+
+// Reponse numero 10
+let somme = 0;
+for (let j = 0; j < 100; j++) {
+    somme += j
+};
+console.log("La somme de tous les nombres de 0 à 100 est :", somme);
