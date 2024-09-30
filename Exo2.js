@@ -27,3 +27,24 @@ let b = Math.floor(Math.random() * 256);
 
 let couleur = "rgb(" + r + "," + g + "," + b + ")";
 console.log(couleur);
+
+
+// Reponse numero 3
+const countries = [
+    'Albania',
+    'Bolivia',
+    'Canada',
+    'Denmark',
+    'Ethiopia',
+    'Finland',
+    'Germany',
+    'Hungary',
+    'Ireland',
+    'Japan',
+    'Kenya'
+  ]
+const newArr = [];
+for (let i = 0; i < countries.length; i++) {
+    newArr.push(countries[i].toUpperCase());
+}
+console.log(newArr);
