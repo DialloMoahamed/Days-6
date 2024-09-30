@@ -149,5 +149,5 @@ for (let t = 0; t < newArres.length; t++) {
  console.log(Array(som , sommeses));
 
 
-// Reponse numero 12
+// Reponse numero 13
 console.log([Math.floor(Math.random()* 5)]);
