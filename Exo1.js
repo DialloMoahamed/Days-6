@@ -60,3 +60,9 @@ for (let a = 1; a <= 7; a++) {
 for(let l = 0; l <= 10; l++){
     console.log(`${l} * ${l} = ${l * l}`)
   }
+
+
+  // Reponse numero 6
+  for(let l = 0; l <= 10; l++){
+    console.log(`${l} ${l * l} ${l * l * l}`)
+  }
