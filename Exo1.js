@@ -66,3 +66,12 @@ for(let l = 0; l <= 10; l++){
   for(let l = 0; l <= 10; l++){
     console.log(`${l} ${l * l} ${l * l * l}`)
   }
+
+
+// Reponse numero 7
+let q = 100;
+for (let w = 0; w <= q; q++) {
+    if (w % 2 === 0) {
+        console.log(w); 
+    }
+}
