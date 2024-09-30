@@ -54,3 +54,9 @@ for (let o = 0; o <= n; o++) {
 for (let a = 1; a <= 7; a++) {
     console.log('#'.repeat(a));
 }
+
+
+// Reponse numero 5
+for(let l = 0; l <= 10; l++){
+    console.log(`${l} * ${l} = ${l * l}`)
+  }
