@@ -29,7 +29,7 @@ let couleur = "rgb(" + r + "," + g + "," + b + ")";
 console.log(couleur);
 
 
-// Reponse numero 3
+// Reponse numero 4
 const countries = [
     'Albania',
     'Bolivia',
@@ -48,3 +48,11 @@ for (let i = 0; i < countries.length; i++) {
     newArr.push(countries[i].toUpperCase());
 }
 console.log(newArr);
+
+
+// Reponse numero 5
+const arr = [];
+for (let a = 0; a < countries.length; a++) {
+    arr.push(countries[a].length);
+}
+console.log(arr);
