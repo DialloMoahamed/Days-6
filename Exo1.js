@@ -70,8 +70,17 @@ for(let l = 0; l <= 10; l++){
 
 // Reponse numero 7
 let q = 100;
-for (let w = 0; w <= q; q++) {
+for (let w = 0; w <= q; w++) {
     if (w % 2 === 0) {
         console.log(w); 
+    }
+}
+
+
+// Reponse numero 8
+let h = 100;
+for (let v = 0; v <= h; v++) {
+    if (v % 2 !== 0) {
+        console.log(v); 
     }
 }
