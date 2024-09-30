@@ -161,3 +161,14 @@ for (let c = 0; c <= con; c++) {
     };
     
 }
+
+
+// // Reponse numero 14
+const characters = 'AZERTYUIJHGFDSQDFYUIJHGFDERTYUwxcvghjkloiuytrdfghjiiuezqsfghhjoigycdsufduzgffèuzuyzuyffzdzd';
+let randomId = '';
+for (let r = 0; r < 6; r++) {
+    let randomIndex = Math.floor(Math.random() * characters.length);
+    randomId += characters.charAt(randomIndex);
+    
+};
+console.log(randomId);
