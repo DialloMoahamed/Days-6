@@ -7,3 +7,14 @@ for (let r = 0; r < 10; r++) {
     
 };
 console.log(randomId);
+
+
+// Reponse numero 2
+const characterse = '#ee33df';
+let randomIde = '';
+for (let r = 0; r < 7; r++) {
+    let randomIndexe = Math.floor(Math.random() * characterse.length);
+    randomIde += characterse.charAt(randomIndexe);
+    
+};
+console.log(randomIde);
