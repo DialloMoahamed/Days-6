@@ -151,3 +151,13 @@ for (let t = 0; t < newArres.length; t++) {
 
 // Reponse numero 13
 console.log([Math.floor(Math.random()* 5)]);
+
+
+// Reponse numero 14
+let con = 5;
+for (let c = 0; c <= con; c++) {
+    if (c % 2 === 0) {
+        console.log(console.log([Math.floor(Math.random() * 5)]));
+    };
+    
+}
