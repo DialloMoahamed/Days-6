@@ -111,3 +111,13 @@ for (let n = 0; n < countries.length; n++) {
         console.log(countries[n]);
     }
  }
+
+
+// Reponse numero 10
+let tableA = [];
+for (let b = 0; b < countries.length; b++) {
+    if (countries[b].length <= 5) {
+        tableA.push(countries[b])
+       console.log(tableA);
+    }
+ }
