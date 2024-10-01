@@ -123,7 +123,7 @@ for (let b = 0; b < countries.length; b++) {
  };
 
 
-// Reponse numero 10
+// Reponse numero 11
 const webTechs = [
     'HTML',
     'CSS',
@@ -138,3 +138,16 @@ for (let c = 0; c < webTechs.length; c++) {
        console.log(webTechs[c]);
     }
  };
+
+
+// Reponse numero 12
+const tableC = [];
+for (let a = 0; a < webTechs.length; a++) {
+    tableC.push(webTechs[a].length);
+}
+const tableN = [];
+for (let u = 0; u < webTechs.length; u++) {
+    tableN.push([webTechs[u],tableC[u]])
+    
+}
+console.log(tableN);
