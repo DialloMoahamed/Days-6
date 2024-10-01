@@ -281,3 +281,19 @@ for (let v = 0; v < countriese.length; v++) {
         console.log([countriese[v]]);
     }
 };
+
+
+// Reponse numero 8
+for (let x = 0; x < countriese.length; x++) {
+    if (countriese[x].includes()) {
+        console.log();
+    }
+}
+
+
+// Reponse numero 9
+const newArr = [];
+for (let i = 0; i < countriese.length; i++) {
+    newArr.push(countriese[i].toUpperCase());
+}
+console.log(newArr.reverse());
