@@ -254,7 +254,7 @@ for (let t = 0; t < countriese.length; t++) {
         console.log('Ce tableau ne contient pas de pays contenant terre ');
     }
     
-} 
+};
 
 
 // Reponse numero 5
@@ -266,7 +266,6 @@ for (let k = 0; k < countriese.length; k++) {
 
 
 // Reponse numero 6
-let tableZ = [];
 for (let y = 0; y < countriese.length; y++) {
     if (countriese[y].includes("terre")) {
         console.log([countriese[y]]);
@@ -274,4 +273,11 @@ for (let y = 0; y < countriese.length; y++) {
     } else {
         console.log("Aucuns des pays ne contient de terre");
     }
-}
+};
+
+// Reponse numero 7
+for (let v = 0; v < countriese.length; v++) {
+    if (countriese[v].length <= 4) {
+        console.log([countriese[v]]);
+    }
+};
