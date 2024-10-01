@@ -120,4 +120,21 @@ for (let b = 0; b < countries.length; b++) {
         tableA.push(countries[b])
        console.log(tableA);
     }
- }
+ };
+
+
+// Reponse numero 10
+const webTechs = [
+    'HTML',
+    'CSS',
+    'JavaScript',
+    'React',
+    'Redux',
+    'Node',
+    'MongoDB'
+  ]
+for (let c = 0; c < webTechs.length; c++) {
+    if (webTechs[c].length > 9) {
+       console.log(webTechs[c]);
+    }
+ };
