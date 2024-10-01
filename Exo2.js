@@ -171,3 +171,14 @@ for (let f = 4; f >= 0; f--) {
     console.log(fruit[f]);
     
 }
+
+
+// Reponse numero 16
+const fullStack = [
+    ['HTML', 'CSS', 'JS', 'React'],
+    ['Node', 'Express', 'MongoDB']
+  ];
+for (let j = 0; j < fullStack.length; j++) {
+    console.log(fullStack[j].toString());
+    
+}  
