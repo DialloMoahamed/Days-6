@@ -255,3 +255,12 @@ for (let t = 0; t < countriese.length; t++) {
     }
     
 } 
+
+
+// Reponse numero 5
+let tableR = [];
+for (let k = 0; k < countriese.length; k++) {
+    if (countriese[k].length > 22) {
+        console.log("le pays contenant le plus grand nombre de caractères dans le tableau des pays est " + countriese[k] ,countriese[k].length);
+    }
+};
