@@ -151,3 +151,9 @@ for (let u = 0; u < webTechs.length; u++) {
     
 }
 console.log(tableN);
+
+
+// Reponse numero 13
+const mernStack = ['MongoDB', 'Express', 'React', 'Node']
+let acronymeMERN = (mernStack[0][0] + mernStack[1][0] + mernStack[2][0] + mernStack[3][0])
+console.log(acronymeMERN);
