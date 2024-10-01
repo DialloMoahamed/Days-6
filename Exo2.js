@@ -103,3 +103,11 @@ for (let n = 0; n < countries.length; n++) {
     };
     
 }
+
+
+ // Reponse numero 9
+ for (let n = 0; n < countries.length; n++) {
+    if (countries[n].length > 7) {
+        console.log(countries[n]);
+    }
+ }
