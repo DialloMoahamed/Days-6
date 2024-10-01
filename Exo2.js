@@ -30,7 +30,7 @@ console.log(couleur);
 
 
 // Reponse numero 4
-const countries = [
+const countriese = [
     'Albania',
     'Bolivia',
     'Canada',
@@ -44,15 +44,39 @@ const countries = [
     'Kenya'
   ]
 const newArr = [];
-for (let i = 0; i < countries.length; i++) {
-    newArr.push(countries[i].toUpperCase());
+for (let i = 0; i < countriese.length; i++) {
+    newArr.push(countriese[i].toUpperCase());
 }
 console.log(newArr);
 
 
 // Reponse numero 5
 const arr = [];
-for (let a = 0; a < countries.length; a++) {
-    arr.push(countries[a].length);
+for (let a = 0; a < countriese.length; a++) {
+    arr.push(countriese[a].length);
 }
 console.log(arr);
+
+
+// // Reponse numero 6
+const countries = [
+    'Albania', 'Bolivia', 'Canada', 'Denmark', 'Ethiopia', 'Finland',
+    'Germany', 'Hungary', 'Ireland', 'Iceland', 'Japan', 'Kenya'
+  ];
+  
+  const table = [];
+
+for (const coun of countries) {
+      const arre = coun[0]+coun[1]+coun[2];
+      console.log(arre);
+      table.push(arre)
+}
+console.log(table);
+
+const GrosTableau = [];
+for (let z = 0; z < countries.length; z++) {
+    GrosTableau.push([countries[z] , table[z] , arr[z]]);
+    
+}
+console.log(GrosTableau);
+
