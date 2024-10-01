@@ -29,3 +29,21 @@ console.log(table);
 
 let sortedCountries = tableA.sort();
 console.log(sortedCountries);
+
+
+// Reponse numero 3
+const webTechs = [
+    'HTML',
+    'CSS',
+    'JavaScript',
+    'React',
+    'Redux',
+    'Node',
+    'MongoDB'
+  ]
+  let tableB = webTechs.sort();
+  console.log(tableB);
+  
+  const mernStack = ['MongoDB', 'Express', 'React', 'Node'];
+  let tableC = mernStack.sort();
+  console.log(tableC);
