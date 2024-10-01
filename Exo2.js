@@ -163,3 +163,11 @@ console.log(acronymeMERN);
 for (let p = 0; p < webTechs.length; p++) {
     console.log([webTechs[p]]); 
 }
+
+
+// Reponse numero 15
+const fruit = ['banana', 'orange', 'mango', 'lemon'];
+for (let f = 4; f >= 0; f--) {
+    console.log(fruit[f]);
+    
+}
