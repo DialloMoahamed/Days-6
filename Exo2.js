@@ -84,9 +84,22 @@ console.log(GrosTableau);
 // // Reponse numero 7
 for (let m = 0; m < countries.length; m++) {
     if (countries[m].includes('terre')) {
-        console.log(countries[m]);
+        console.log([countries[m]]);
     } else {
         console.log("Tous ces pays sont sans terre.");
     }
+    
+}
+
+
+ // Reponse numero 8
+ let tablev = []
+for (let n = 0; n < countries.length; n++) {
+    if (countries[n].endsWith('ia')) {
+        tablev.push([countries[n]])
+        console.log(tablev);
+    }else {
+        console.log('These are countries ends without ia');
+    };
     
 }
