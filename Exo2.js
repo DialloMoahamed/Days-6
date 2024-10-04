@@ -10,9 +10,9 @@ console.log(randomId);
 
 
 // Reponse numero 2
-const characterse = '#ee33df'
-let randomIde = '';
-for (let r = 0; r < 7; r++) {
+const characterse = '0123456789abcdef'
+let randomIde = '#';
+for (let r = 0; r < 6; r++) {
     let randomInde = Math.floor(Math.random() * characterse.length);
     randomIde += characterse.charAt(randomInde);
     
@@ -61,8 +61,7 @@ console.log(arr);
 // // Reponse numero 6
 const countries = [
     'Albania', 'Bolivia', 'Canada', 'Denmark', 'Ethiopia', 'Finland',
-    'Germany', 'Hungary', 'Ireland', 'Iceland', 'Japan', 'Kenya'
-  ];
+    'Germany', 'Hungary', 'Ireland', 'Iceland', 'Japan', 'Kenya'];
   
   const table = [];
 
@@ -82,36 +81,41 @@ console.log(GrosTableau);
 
 
 // // Reponse numero 7
+let tableW = [];
 for (let m = 0; m < countries.length; m++) {
-    if (countries[m].includes('terre')) {
-        console.log([countries[m]]);
-    } else {
-        console.log("Tous ces pays sont sans terre.");
-    }
-    
+    if (countries[m].includes('land')) {
+        tableW.push(countries[m]);
+    } 
 }
+console.log(tableW);
 
 
  // Reponse numero 8
  let tablev = []
+ let check = false
 for (let n = 0; n < countries.length; n++) {
     if (countries[n].endsWith('ia')) {
-        tablev.push([countries[n]])
-        console.log(tablev);
-    }else {
-        console.log('These are countries ends without ia');
-    };
-    
+        tablev.push(countries[n])
+        check = true
+    }
 }
+if (!(check)) {
+    console.log("All these countries are without land");
+}
+console.log(tablev);
 
 
  // Reponse numero 9
- for (let n = 0; n < countries.length; n++) {
-    if (countries[n].length > 7) {
-        console.log(countries[n]);
+ let maxlength = 0;
+ 
+for (let b = 0;b < countries.length; b++) {
+       if (countries[b].length > maxlength) {
+           maxlength = countries[b].length;
+           verification = countries[b];
     }
- }
-
+    };
+    console.log("Le pays avec le plus de caractères est :", verification);;
+    
 
 // Reponse numero 10
 let tableA = [];
@@ -131,26 +135,23 @@ const webTechs = [
     'React',
     'Redux',
     'Node',
-    'MongoDB'
+    'MongoDB',
   ]
+let innitiale = 0;
 for (let c = 0; c < webTechs.length; c++) {
-    if (webTechs[c].length > 9) {
-       console.log(webTechs[c]);
+    if (webTechs[c].length > innitiale) {
+        innitiale = webTechs[c].length;
+        stockageDuNomDuPays = webTechs[c];
     }
  };
-
+ console.log("le mot le plus long dans le tableau webTechs est " ,stockageDuNomDuPays);
 
 // Reponse numero 12
 const tableC = [];
 for (let a = 0; a < webTechs.length; a++) {
-    tableC.push(webTechs[a].length);
-}
-const tableN = [];
-for (let u = 0; u < webTechs.length; u++) {
-    tableN.push([webTechs[u],tableC[u]])
-    
-}
-console.log(tableN);
+    tableC.push([webTechs[a], webTechs[a].length]);
+} 
+console.log(tableC);
 
 
 // Reponse numero 13
