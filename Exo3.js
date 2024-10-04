@@ -50,7 +50,7 @@ const webTechs = [
 
 
   // Reponse numero 4
-  const countriese = [
+  const pays = [
     'Afghanistan',
     'Albania',
     'Algeria',
@@ -245,55 +245,47 @@ const webTechs = [
     'Zambia',
     'Zimbabwe'
   ];
-  let tableN = [];
-for (let t = 0; t < countriese.length; t++) {
-    if (countriese.includes('terre')) {
-        tableN.push(countriese[t])
-        console.log(tableN);
-    } else {
-        console.log('Ce tableau ne contient pas de pays contenant terre ');
-    }
-    
+  for (let y = 0; y < pays.length; y++) {
+    if (pays[y].includes("land")) {
+        console.log([pays[y]]);
+    } 
 };
-
 
 // Reponse numero 5
-for (let k = 0; k < countriese.length; k++) {
-    if (countriese[k].length > 22) {
-        console.log("le pays contenant le plus grand nombre de caractères dans le tableau des pays est " + countriese[k] ,countriese[k].length);
+let identifiant = 0;
+for (let k = 0; k < pays.length; k++) {
+    if (pays[k].length > identifiant) {
+        identifiant = pays[k].length;
+        nomDuPays = pays[k];
     }
 };
+console.log("le pays contenant le plus grand nombre de caractères dans le tableau des pays est " + nomDuPays);
 
 
 // Reponse numero 6
-for (let y = 0; y < countriese.length; y++) {
-    if (countriese[y].includes("terre")) {
-        console.log([countriese[y]]);
-
-    } else {
-        console.log("Aucuns des pays ne contient de terre");
-    }
-};
+// Même chose que question 4
 
 // Reponse numero 7
-for (let v = 0; v < countriese.length; v++) {
-    if (countriese[v].length <= 4) {
-        console.log([countriese[v]]);
+for (let v = 0; v < pays.length; v++) {
+    if (pays[v].length <= 4) {
+        console.log([pays[v]]);
     }
 };
 
 
 // Reponse numero 8
-for (let x = 0; x < countriese.length; x++) {
-    if (countriese[x].includes()) {
-        console.log();
+let twoWord = 2;
+for (let x = 0; x < pays.length; x++) {
+    const mot = pays[x].split(' ')
+    if (mot.length >= twoWord) {
+        console.log(pays[x])
     }
-}
+} 
 
 
 // Reponse numero 9
 const newArr = [];
-for (let i = 0; i < countriese.length; i++) {
-    newArr.push(countriese[i].toUpperCase());
+for (let i = 0; i < pays.length; i++) {
+    newArr.push(pays[i].toUpperCase());
 }
 console.log(newArr.reverse());
